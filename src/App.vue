@@ -2,6 +2,7 @@
 import Nav from './components/nav.vue'
 import Background from './components/background.vue';
 import Container from './components/container.vue'
+import HeadersBlok from './components/headersBlok.vue';
 
 </script>
 
@@ -13,6 +14,6 @@ import Container from './components/container.vue'
         <Container />
       </div>
     </Background>
-    
+    <HeadersBlok/>
   </div>
 </template>
