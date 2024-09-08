@@ -1,0 +1,11 @@
+<script setup lang="ts">
+
+</script>
+
+<template>
+
+<section class="md:p-[120px]">
+
+</section>
+
+</template>
