@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <header class="flex justify-center py-4">
+    <header class="flex justify-center py-4 w-screen">
         <nav class="flex justify-between items-center w-5/6">
             <img src="../../public/logo.png" alt="Logo CarsSpot" />
             <div class="flex gap-6">

@@ -6,6 +6,8 @@ import Background from './components/background.vue';
 
 <template>
   <div>
-    <Background />
+    <Background>
+      <Nav />
+    </Background>
   </div>
 </template>
