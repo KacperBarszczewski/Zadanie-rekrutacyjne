@@ -5,12 +5,12 @@
 <template>
     <header class="flex justify-center py-4">
         <nav class="flex justify-between items-center w-5/6">
-            <img src="../assets/logo.png" alt="Logo CarsSpot" />
+            <img src="../../public/logo.png" alt="Logo CarsSpot" />
             <div class="flex gap-6">
                 <a>Galeria zdjęć</a>
                 <a>FaQ</a>
             </div>
-            <button class="bg-secondary hover:bg-opacity-70 text-font-white font-semibold text-[15px] p-3 rounded-xl">Zadzwoń do nas</button>
+            <button class="bg-secondary hover:bg-opacity-70 text-font-white font-semibold text-[15px] py-3 px-6 rounded-xl">Zadzwoń do nas</button>
         </nav>
     </header>
 
