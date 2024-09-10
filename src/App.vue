@@ -4,6 +4,7 @@ import Background from './components/background.vue';
 import Container from './components/container.vue'
 import HeadersBlok from './components/headersBlok.vue';
 import SEO from './components/SEO.vue';
+import Footer from './components/footer.vue';
 
 </script>
 
@@ -17,5 +18,6 @@ import SEO from './components/SEO.vue';
     </Background>
     <HeadersBlok />
     <SEO />
+    <Footer />
   </div>
 </template>
