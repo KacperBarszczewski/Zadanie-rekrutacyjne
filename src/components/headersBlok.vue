@@ -19,16 +19,18 @@ const selectedOption = ref('radio1');
                         <input v-model="selectedOption" type="radio" id="radio1" name="radioGroup" value="radio1"
                             class="peer sr-only" />
                         <label for="radio1"
-                            class="text-[0.938rem] font-semibold border-secondary peer-checked:text-secondary peer-checked:border-b">Samochody
-                            osobowe</label>
+                            class="text-[0.938rem] font-semibold border-secondary peer-checked:text-secondary peer-checked:border-b cursor-pointer">Samochody
+                            osobowe
+                        </label>
                     </div>
 
                     <div>
                         <input v-model="selectedOption" type="radio" id="radio2" name="radioGroup" value="radio2"
                             class="peer sr-only" />
                         <label for="radio2"
-                            class="text-[0.938rem] font-semibold border-secondary peer-checked:text-secondary peer-checked:border-b">Samochody
-                            dostawcze</label>
+                            class="text-[0.938rem] font-semibold border-secondary peer-checked:text-secondary peer-checked:border-b cursor-pointer">Samochody
+                            dostawcze
+                        </label>
                     </div>
 
                 </fieldset>

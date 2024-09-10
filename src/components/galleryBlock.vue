@@ -7,7 +7,7 @@ const activeIndex = ref(0);
 const scrollToImage = (id: string, index: number) => {
     const imageElement = document.getElementById(id);
     if (imageElement) {
-        imageElement.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'center' });
+        imageElement.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
         activeIndex.value = index;
     }
 };
@@ -15,7 +15,7 @@ const scrollToImage = (id: string, index: number) => {
 </script>
 
 <template>
-    <section class="pb-20">
+    <section id="gallery" class="pb-20">
 
         <div class="w-screen flex overflow-x-hidden snap-x scroll-smooth px-20 ">
             <div v-for="(image, index) in images" :key="index" :id="'car' + index"
@@ -25,7 +25,7 @@ const scrollToImage = (id: string, index: number) => {
         </div>
 
         <div class="flex justify-center gap-2 p-12 ">
-            <button v-for="(, index) in images" :key="index" @click="scrollToImage('car' + index, index)"
+            <button v-for="(image, index) in images" :key="index" @click="scrollToImage('car' + index, index)"
                 :class="['h-2 w-2 rounded-full block', activeIndex === index ? 'bg-secondary' : 'bg-gray-300']">
             </button>
         </div>
