@@ -25,7 +25,7 @@ const scrollToImage = (id: string, index: number) => {
         </div>
 
         <div class="flex justify-center gap-2 p-12 ">
-            <button v-for="(image, index) in images" :key="index" @click="scrollToImage('car' + index, index)"
+            <button v-for="(, index) in images" :key="index" @click="scrollToImage('car' + index, index)"
                 :class="['h-2 w-2 rounded-full block', activeIndex === index ? 'bg-secondary' : 'bg-gray-300']">
             </button>
         </div>
