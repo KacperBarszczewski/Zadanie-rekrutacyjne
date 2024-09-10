@@ -7,7 +7,7 @@ import HeadersBlok from './components/headersBlok.vue';
 </script>
 
 <template>
-  <div>
+  <div  class="max-w-screen overflow-hidden">
     <Background>
       <div>
         <Nav />
