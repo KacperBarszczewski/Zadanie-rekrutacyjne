@@ -4,7 +4,7 @@
 
 <template>
 
-    <footer class="bg-background-gray text-font-white border-t-[1px] border-white flex justify-between px-20 py-6">
+    <footer class="bg-background-gray text-font-white border-t-[1px] border-white flex justify-between px-6 sm:px-20 py-6">
 
         <div class="font-robotoCondensed font-bold text-base">
             Cars Spot

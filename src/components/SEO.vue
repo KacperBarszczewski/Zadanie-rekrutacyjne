@@ -4,7 +4,7 @@
 
 <template>
 
-    <section id="SEO" class="px-20 py-[5.5rem] bg-background-gray text-font-white flex ">
+    <section id="SEO" class="px-20 py-[5.5rem] bg-background-gray text-font-white flex flex-wrap md:flex-nowrap gap-12">
 
         <div>
             <h3 class="font-bebasNeue text-[1.563rem] text-wrap">

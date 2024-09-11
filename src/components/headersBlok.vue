@@ -8,7 +8,7 @@ const selectedOption = ref('radio1');
 
 <template>
     <div>
-        <section class="md:p-20 ">
+        <section class="p-6 sm:p-20 ">
             <h2 class="font-robotoCondensed text-xl sm:text-[21.5px] text-secondary">Prezentacja firmy</h2>
             <h3 class="font-bebasNeue text-4xl sm:text-[40px] pt-2 pb-6">Zobacz naszą Galerię zdjęć</h3>
 

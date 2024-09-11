@@ -20,7 +20,7 @@ const scrollToImage = (id: string, index: number) => {
         <div class="w-screen max-w-full flex overflow-x-hidden snap-x scroll-smooth px-20 ">
             <div v-for="(image, index) in images" :key="index" :id="'car' + index"
                 class="snap-center flex-shrink-0 ml-16 first:ml-0">
-                <img :src="image" alt="zdjęcie samochodu" class="h-[27.875rem] w-[37.5rem]" />
+                <img :src="image" alt="zdjęcie samochodu" class="w-screen sm:w-[37.5rem] sm:h-[27.875rem]" />
             </div>
         </div>
 
