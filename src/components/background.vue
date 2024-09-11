@@ -4,14 +4,14 @@
 
 <template>
 
-    <div class=" w-screen h-screen relative overflow-hidden">
+    <div class=" w-full h-screen relative">
 
         <img alt="linie" aria-hidden="true" src="../../public/linie.png"
-            class="w-[46.4%] h-[73.2%] absolute top-0 right-16" />
+            class="w-[46.4vw] h-[73.2vh] absolute top-0 right-16" />
         <img alt="samochody" aria-hidden="true" src="../../public/cars.png"
-            class="w-[74%] absolute bottom-20 right-0" />
+            class="w-[74vw] absolute bottom-20 right-0" />
         <img alt="cień samochodów" aria-hidden="true" src="../../public/cień.png"
-            class="w-[74%] absolute bottom-20 right-0" />
+            class="w-[74vw] absolute bottom-20 right-0" />
 
         <div class="absolute top-0 left-0">
             <slot></slot>

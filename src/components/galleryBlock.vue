@@ -17,16 +17,17 @@ const scrollToImage = (id: string, index: number) => {
 <template>
     <section id="gallery" class="pb-20">
 
-        <div class="w-screen flex overflow-x-hidden snap-x scroll-smooth px-20 ">
+        <div class="w-screen max-w-full flex overflow-x-hidden snap-x scroll-smooth px-20 ">
             <div v-for="(image, index) in images" :key="index" :id="'car' + index"
                 class="snap-center flex-shrink-0 ml-16 first:ml-0">
-                <img :src="image" class="h-[27.875rem] w-[37.5rem]" />
+                <img :src="image" alt="zdjęcie samochodu" class="h-[27.875rem] w-[37.5rem]" />
             </div>
         </div>
 
-        <div class="flex justify-center gap-2 p-12 ">
+        <div class="flex justify-center gap-2 p-12 h-2">
             <button v-for="(image, index) in images" :key="index" @click="scrollToImage('car' + index, index)"
-                :class="['h-2 w-2 rounded-full block', activeIndex === index ? 'bg-secondary' : 'bg-gray-300']">
+                :class="['h-2 w-2 rounded-full block hover:h-3 hover:w-3', activeIndex === index ? 'bg-secondary' : 'bg-gray-300']"
+                :aria-label="`przycisk do zdjęcia numer ${index}`">
             </button>
         </div>
 

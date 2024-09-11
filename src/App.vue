@@ -9,7 +9,7 @@ import Footer from './components/footer.vue';
 </script>
 
 <template>
-  <div class="max-w-screen overflow-hidden">
+  <div>
     <Background>
       <div>
         <Nav />

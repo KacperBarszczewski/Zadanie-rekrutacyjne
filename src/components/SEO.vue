@@ -15,7 +15,7 @@
                 ornare, diam turpis efficitur mi, ac venenatis eros ipsum ac arcu. Vestibulum et [...]
             </p>
             <button class="border-b-[1.5px] border-white flex items-center gap-[0.375rem] pb-[0.375rem]">
-                Rozwiń <img src="../../public/strzalka.png"/>
+                Rozwiń <img alt="strzałka" src="../../public/strzalka.png"/>
             </button>
         </div>
 
@@ -29,7 +29,7 @@
                 ornare, diam turpis efficitur mi, ac venenatis eros ipsum ac arcu. Vestibulum et [...]
             </p>
             <button class="border-b-[1.5px] border-white flex items-center gap-[0.375rem] pb-[0.375rem]">
-                Rozwiń <img src="../../public/strzalka.png"/>
+                Rozwiń <img alt="strzałka" src="../../public/strzalka.png"/>
             </button>
         </div>
 
