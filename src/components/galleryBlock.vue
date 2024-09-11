@@ -25,7 +25,7 @@ const scrollToImage = (id: string, index: number) => {
         </div>
 
         <div class="flex justify-center gap-2 p-12 h-2">
-            <button v-for="(image, index) in images" :key="index" @click="scrollToImage('car' + index, index)"
+            <button v-for="(_, index) in images" :key="index" @click="scrollToImage('car' + index, index)"
                 :class="['h-2 w-2 rounded-full block hover:h-3 hover:w-3', activeIndex === index ? 'bg-secondary' : 'bg-gray-300']"
                 :aria-label="`przycisk do zdjęcia numer ${index}`">
             </button>
