@@ -1,13 +1,12 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
-const images = [
-  new URL('/car1.png', import.meta.url).href,
-  new URL('/car2.png', import.meta.url).href,
-  new URL('/car3.png', import.meta.url).href,
-  new URL('/car1.png', import.meta.url).href,
-  new URL('/car2.png', import.meta.url).href,
-];
+import car1 from '../assets/car1.png';
+import car2 from '../assets/car2.png';
+import car3 from '../assets/car3.png';
+
+
+const images = [car1, car2, car3, car1, car2];
 const activeIndex = ref(0);
 
 const scrollToImage = (id: string, index: number) => {
