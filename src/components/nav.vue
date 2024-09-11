@@ -17,7 +17,7 @@ const scrollTo = (id: string) => {
                 <a href="#" @click="scrollTo('gallery')">Galeria zdjęć</a>
                 <a href="#" @click="scrollTo('SEO')">FaQ</a>
             </div>
-            <button class="bg-secondary hover:bg-opacity-70 text-font-white font-semibold text-[15px] py-3 px-6 rounded-xl">Zadzwoń do nas</button>
+            <button class="bg-secondary hover:bg-opacity-70 text-font-white font-semibold text-[15px] py-3 px-6 rounded-lg">Zadzwoń do nas</button>
         </nav>
     </header>
 

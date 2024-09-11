@@ -19,11 +19,11 @@ const scrollTo = (id: string) => {
 
         <div class="pt-12 flex gap-6 flex-col sm:flex-row items-center">
             <button @click="scrollTo('gallery')"
-                class="bg-secondary hover:bg-opacity-70 text-font-white font-semibold text-[15px] py-3 px-6 rounded-xl">
+                class="bg-secondary hover:bg-opacity-70 text-font-white font-semibold text-[15px] py-3 px-6 rounded-lg">
                 Zobacz zdjęcia
             </button>
             <button
-                class="bg-transparent hover:bg-secondary hover:bg-opacity-20 text-secondary font-semibold text-[15px] py-3 px-6 rounded-xl border border-secondary">
+                class="bg-transparent hover:bg-secondary hover:bg-opacity-20 text-secondary font-semibold text-[15px] py-3 px-6 rounded-lg border border-secondary">
                 Zadzwoń do nas
             </button>
         </div>
